@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev --port=3005",
     "build": "next build",
-    "start": "next start --port=3005",
+    "start": "next start",
     "generate:prisma": "prisma generate",
     "generate:nexus": "ts-node --transpile-only -P nexus.tsconfig.json lib/schema",
     "migration_save:prisma": "prisma migrate save --experimental",
